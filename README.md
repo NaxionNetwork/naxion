@@ -56,7 +56,7 @@ This command will:
 
    This tool is optional and if you leave it out you can always attach to an already running Geth instance
    with `geth attach`.
-   ([Geth Manual](https://github.com/NaxionNetwork/Naxion/geth.md))
+   ([Geth Manual](https://github.com/NaxionNetwork/naxion/blob/main/geth.md))
 
 ### A Full node on the Naxion test network
 
