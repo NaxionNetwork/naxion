@@ -1,8 +1,0 @@
-go get -u github.com/karalabe/xgo
-xgo github.com/karalabe/xgo
-make geth-<os>-<arch>
-
-go install -v ./...
-go install -v ./cmd/geth
-make geth
-make all
