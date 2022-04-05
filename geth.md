@@ -1,8 +1,6 @@
 NAME:
    geth - the go-ethereum command line interface
 
-   Copyright 2013-2019 The go-ethereum Authors
-
 USAGE:
    geth [options] command [command options] [arguments...]
    
