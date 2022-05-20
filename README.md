@@ -26,7 +26,7 @@ The go-Naxion project comes with several wrappers/executables found in the `cmd`
 | `bootnode` | Stripped down version of our Naxion client implementation that only takes part in the network node discovery protocol, but does not run any of the higher level application protocols. It can be used as a lightweight bootstrap node to aid in finding peers in private networks. |
 | `evm` | Developer utility version of the EVM (Naxion Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode. Its purpose is to allow isolated, fine-grained debugging of EVM opcodes (e.g. `evm --code 60ff60ff --debug`). |
 | `gethrpctest` | Developer utility tool to support our  test suite which validates baseline conformity to the  specs.. |
-| `rlpdump` | Developer utility tool to convert binary RLP ([Recursive Length Prefix](https://github.com/Naxion/wiki/wiki/RLP)) dumps (data encoding used by the Naxion protocol both network as well as consensus wise) to user-friendlier hierarchical representation (e.g. `rlpdump --hex CE0183FFFFFFC4C304050583616263`). |
+| `rlpdump` | Developer utility tool to convert binary RLP dumps (data encoding used by the Naxion protocol both network as well as consensus wise) to user-friendlier hierarchical representation (e.g. `rlpdump --hex CE0183FFFFFFC4C304050583616263`). |
 | `swarm`    | Swarm daemon and tools. This is the entry point for the Swarm network. `swarm --help` for command line options and subcommands.  |
 | `puppeth`    | a CLI wizard that aids in creating a new Naxion network. |
 
