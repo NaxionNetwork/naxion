@@ -119,7 +119,7 @@ VERSION : 2.0.0.2-Naxion-e1fbda06
     --nodekeyhex value    P2P node key as hex (for testing)
 
 # MINER OPTIONS:
-    --mine                         Enable mining
+    --mine                         Enable mining(This Version Not Support)
     --miner.threads value          Number of CPU threads to use for mining (default: 0)
     --miner.notify value           Comma separated HTTP URL list to notify of new work packages
     --miner.gasprice "1000000000"  Minimum gas price for mining a transaction
